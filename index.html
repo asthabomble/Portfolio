@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Astha Bombale - Modern Personal Portfolio Website. Showcase of Information Technology engineering skills, Python applications, and frontend development.">
+  <title>Astha Bombale | Information Technology Student & Developer</title>
+  
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Outfit and Inter Fonts, JetBrains Mono for tech elements -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Devicon Library for tech icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="#" class="logo" aria-label="Astha Bombale Home">
+        <span class="logo-dot"></span>astha<span class="logo-bold">bombale</span>
+      </a>
+
+      <!-- Desktop & Tablet Navigation Links -->
+      <nav class="primary-nav" id="primary-navigation">
+        <ul class="nav-list" role="list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons (Theme Toggle & Mobile Menu Toggler) -->
+      <div class="nav-actions">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle-btn" id="theme-toggle" aria-label="Switch to light mode" title="Toggle dark/light theme">
+          <!-- Sun Icon (visible in Dark mode) -->
+          <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+          </svg>
+          <!-- Moon Icon (visible in Light mode) -->
+          <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <!-- Hamburger Toggle Button for Mobile Navigation -->
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation menu">
+          <span class="hamburger" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Wrapper -->
+  <main id="main-content">
+
+    <!-- 1. Hero Section -->
+    <section class="hero-section" id="home">
+      <!-- Glow background gradients -->
+      <div class="hero-glow-1" aria-hidden="true"></div>
+      <div class="hero-glow-2" aria-hidden="true"></div>
+      
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-intro">
+            <span class="badge hero-badge">Available for Work</span>
+            <h1 class="hero-title">
+              Hi, I am <span class="text-gradient">Astha Bombale</span>.
+            </h1>
+            <p class="hero-subtitle">
+              A <span class="typing-text" id="typing-text">Information Technology Engineering Student</span>
+            </p>
+            <p class="hero-desc">
+              I am a Third-year Information Technology Engineering student passionate about learning new technologies and building impactful solutions.
+            </p>
+          </div>
+          
+          <div class="hero-ctas">
+            <a href="#projects" class="btn btn-primary">
+              View Projects
+              <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+              </svg>
+            </a>
+            <a href="https://github.com/asthabomble" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="gap: 0.5rem;">
+              <svg style="width:1.25rem; height:1.25rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+              </svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/astha-bombale" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="gap: 0.5rem;">
+              <svg style="width:1.25rem; height:1.25rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect width="4" height="12" x="2" y="9"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              LinkedIn
+            </a>
+            <a href="assets/docs/Astha%27s%20resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="gap: 0.5rem;" aria-label="Open Astha's Resume PDF in a new tab">
+              <svg style="width:1.25rem; height:1.25rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+              Resume
+            </a>
+          </div>
+
+          <!-- Quick Social Links -->
+          <div class="hero-socials">
+            <a href="https://github.com/asthabomble" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/astha-bombale" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect width="4" height="12" x="2" y="9"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+            <a href="mailto:asthabomble@gmail.com" class="social-link" aria-label="Send Email">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Graphic (Glass card elements with tech indicators) -->
+        <div class="hero-graphic" aria-hidden="true">
+          <div class="graphic-canvas">
+            <div class="floating-card c1">
+              <div class="card-dot-header">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <code class="code-snippet">
+                <span class="c-tag">const</span> engineer = {<br>
+                &nbsp;&nbsp;name: <span class="c-str">'Astha'</span>,<br>
+                &nbsp;&nbsp;skills: [<span class="c-str">'JS'</span>, <span class="c-str">'CSS'</span>, <span class="c-str">'Node'</span>],<br>
+                &nbsp;&nbsp;passion: <span class="c-str">'Aesthetics'</span><br>
+                };
+              </code>
+            </div>
+            <div class="floating-card c2">
+              <div class="status-indicator">
+                <span class="pulse-ring"></span>
+                <span class="pulse-dot"></span>
+              </div>
+              <span class="label">Performance 100%</span>
+            </div>
+            <!-- Dynamic ambient blob behind the elements -->
+            <div class="blob-gradient"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll Down Indicator -->
+      <a href="#about" class="scroll-down-btn" aria-label="Scroll down to About section">
+        <span class="mouse-icon">
+          <span class="mouse-wheel"></span>
+        </span>
+      </a>
+    </section>
+
+    <!-- 2. About Me Section -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <h2 class="section-title text-center" data-reveal>About Me</h2>
+        <p class="section-subtitle text-center" data-reveal>Passionate about learning, building, and exploring new technologies.</p>
+        
+        <div class="about-grid">
+          <!-- Profile Interactive Card -->
+          <div class="about-visual" data-reveal="left">
+            <div class="profile-card-wrapper">
+              <div class="profile-glow"></div>
+              <div class="profile-card">
+                <!-- Avatar placeholder styled in CSS as custom graphic/avatar -->
+                <div class="profile-avatar">
+                  <img src="assets/images/prof%20pic.png" alt="Astha Bombale" class="avatar-img">
+                </div>
+                <div class="profile-details">
+                  <h3>Astha Bombale</h3>
+                  <p>Based in Mumbai, India</p>
+                  <div class="profile-badge">IT Student & Developer</div>
+                  <div class="profile-socials">
+                    <a href="https://github.com/asthabomble" target="_blank" rel="noopener noreferrer" class="profile-social-link" aria-label="GitHub Profile">
+                      <svg style="width:1.125rem; height:1.125rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                      </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/astha-bombale" target="_blank" rel="noopener noreferrer" class="profile-social-link" aria-label="LinkedIn Profile">
+                      <svg style="width:1.125rem; height:1.125rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect width="4" height="12" x="2" y="9"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                      </svg>
+                    </a>
+                    <a href="mailto:asthabomble@gmail.com" class="profile-social-link" aria-label="Send Email">
+                      <svg style="width:1.125rem; height:1.125rem;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Biography & Stacked Cards -->
+          <div class="about-content" data-reveal="right">
+            <div class="about-interests-tags">
+              <span class="interest-tag">AI/ML</span>
+              <span class="interest-tag">DevOps</span>
+              <span class="interest-tag">Web Development</span>
+              <span class="interest-tag">Open Source</span>
+            </div>
+
+            <!-- Stacked Cards Redesign -->
+            <div class="about-cards-list">
+              <!-- Card 1: Currently Exploring -->
+              <div class="about-card" data-reveal>
+                <div class="about-card-icon-wrapper">
+                  <i data-lucide="compass" class="about-card-icon" aria-hidden="true"></i>
+                </div>
+                <div class="about-card-content">
+                  <h4 class="about-card-title">Currently Exploring</h4>
+                  <ul class="about-card-list" role="list">
+                    <li>Artificial Intelligence & Machine Learning</li>
+                    <li>DevOps & Cloud Technologies</li>
+                    <li>Modern Software Engineering Practices</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <!-- Card 2: Interests -->
+              <div class="about-card" data-reveal>
+                <div class="about-card-icon-wrapper">
+                  <i data-lucide="code-2" class="about-card-icon" aria-hidden="true"></i>
+                </div>
+                <div class="about-card-content">
+                  <h4 class="about-card-title">Interests</h4>
+                  <ul class="about-card-list" role="list">
+                    <li>Web Development</li>
+                    <li>Programming & Problem Solving</li>
+                    <li>Databases</li>
+                    <li>Open Source</li>
+                    <li>Building Real-world Projects</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <!-- Card 3: Beyond Academics -->
+              <div class="about-card" data-reveal>
+                <div class="about-card-icon-wrapper">
+                  <i data-lucide="users" class="about-card-icon" aria-hidden="true"></i>
+                </div>
+                <div class="about-card-content">
+                  <h4 class="about-card-title">Beyond Academics</h4>
+                  <ul class="about-card-list" role="list">
+                    <li>Communication Skills</li>
+                    <li>Teamwork</li>
+                    <li>Quick Learner</li>
+                    <li>Guitar Enthusiast</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <!-- Card 4: Career Goals -->
+              <div class="about-card" data-reveal>
+                <div class="about-card-icon-wrapper">
+                  <i data-lucide="briefcase-business" class="about-card-icon" aria-hidden="true"></i>
+                </div>
+                <div class="about-card-content">
+                  <h4 class="about-card-title">Career Goals</h4>
+                  <ul class="about-card-list" role="list">
+                    <li>Grow as a software engineer by building meaningful projects, exploring emerging technologies, and continuously improving my technical and professional skills.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Skills Section -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        <h2 class="section-title text-center" data-reveal>My Skillset</h2>
+        <p class="section-subtitle text-center" data-reveal>The tools, libraries, and principles I bring to the table.</p>
+
+        <div class="skills-grid-categories" data-reveal>
+          <!-- Category 1: Core Programming -->
+          <div class="skills-category-group">
+            <div class="category-title-wrapper">
+              <svg class="category-title-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5"></path>
+              </svg>
+              <h3>Core Programming</h3>
+            </div>
+            
+            <div class="skills-pills-wrap">
+              <button type="button" class="skill-pill-card" aria-label="View Java experience" data-tech-name="Java" data-tech-desc="Used Java to study Object-Oriented Programming, data structures, algorithms, and build reliable desktop applications." data-tech-level="80%" data-tech-level-text="Intermediate" data-tech-icon="devicon-java-plain colored">
+                <i class="devicon-java-plain colored" aria-hidden="true"></i>
+                <span>Java</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View Python experience" data-tech-name="Python" data-tech-desc="My core language for backend systems, automation, scripting, API connections, and data processing workflows." data-tech-level="90%" data-tech-level-text="Advanced" data-tech-icon="devicon-python-plain colored">
+                <i class="devicon-python-plain colored" aria-hidden="true"></i>
+                <span>Python</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View C experience" data-tech-name="C" data-tech-desc="Learnt low-level programming, manual memory management, and pointers to build a strong computer engineering foundation." data-tech-level="85%" data-tech-level-text="Intermediate" data-tech-icon="devicon-c-plain colored">
+                <i class="devicon-c-plain colored" aria-hidden="true"></i>
+                <span>C</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View C++ experience" data-tech-name="C++" data-tech-desc="Utilized for object-oriented programming systems, data structure modeling, and memory management algorithms." data-tech-level="80%" data-tech-level-text="Intermediate" data-tech-icon="devicon-cplusplus-plain colored">
+                <i class="devicon-cplusplus-plain colored" aria-hidden="true"></i>
+                <span>C++</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View Git experience" data-tech-name="Git" data-tech-desc="Collaborate on open-source code and team projects using version control systems and pull request structures." data-tech-level="88%" data-tech-level-text="Advanced" data-tech-icon="devicon-git-plain colored">
+                <i class="devicon-git-plain colored" aria-hidden="true"></i>
+                <span>Git</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Category 2: Web & App Development -->
+          <div class="skills-category-group">
+            <div class="category-title-wrapper">
+              <svg class="category-title-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+              <h3>Web & App Development</h3>
+            </div>
+
+            <div class="skills-pills-wrap">
+              <button type="button" class="skill-pill-card" aria-label="View HTML5 experience" data-tech-name="HTML5" data-tech-desc="Write clean, semantic, structured markup following modern SEO and WCAG accessibility guidelines." data-tech-level="95%" data-tech-level-text="Advanced" data-tech-icon="devicon-html5-plain colored">
+                <i class="devicon-html5-plain colored" aria-hidden="true"></i>
+                <span>HTML5</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View CSS3 experience" data-tech-name="CSS3" data-tech-desc="Designed custom glassmorphism systems, layouts, animations, transitions, and fully responsive fluid layouts." data-tech-level="90%" data-tech-level-text="Advanced" data-tech-icon="devicon-css3-plain colored">
+                <i class="devicon-css3-plain colored" aria-hidden="true"></i>
+                <span>CSS3</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View JavaScript experience" data-tech-name="JavaScript" data-tech-desc="Built modern interactive client-side logic, managed DOM events, async fetch requests, and IntersectionObservers." data-tech-level="85%" data-tech-level-text="Advanced" data-tech-icon="devicon-javascript-plain colored">
+                <i class="devicon-javascript-plain colored" aria-hidden="true"></i>
+                <span>JavaScript</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View Bootstrap experience" data-tech-name="Bootstrap" data-tech-desc="Sped up prototype responsiveness using mobile-first grid systems, navbar elements, and style utilities." data-tech-level="80%" data-tech-level-text="Intermediate" data-tech-icon="devicon-bootstrap-plain colored">
+                <i class="devicon-bootstrap-plain colored" aria-hidden="true"></i>
+                <span>Bootstrap</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View WordPress experience" data-tech-name="WordPress" data-tech-desc="Assembled custom content sites, styled modules, and maintained user domains and CMS themes." data-tech-level="75%" data-tech-level-text="Intermediate" data-tech-icon="devicon-wordpress-plain colored">
+                <i class="devicon-wordpress-plain colored" aria-hidden="true"></i>
+                <span>WordPress</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View Django experience" data-tech-name="Django" data-tech-desc="Created clean MVC backend architectures, server templates, database models, and secure API routers." data-tech-level="82%" data-tech-level-text="Intermediate" data-tech-icon="devicon-django-plain colored">
+                <i class="devicon-django-plain colored" aria-hidden="true"></i>
+                <span>Django</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View Streamlit experience" data-tech-name="Streamlit" data-tech-desc="Deployed responsive python applications, web prototypes, and data charts within hours." data-tech-level="85%" data-tech-level-text="Advanced" data-tech-icon="devicon-streamlit-plain colored">
+                <i class="devicon-streamlit-plain colored" aria-hidden="true"></i>
+                <span>Streamlit</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Category 3: Databases -->
+          <div class="skills-category-group">
+            <div class="category-title-wrapper">
+              <svg class="category-title-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
+              </svg>
+              <h3>Databases</h3>
+            </div>
+
+            <div class="skills-pills-wrap">
+              <button type="button" class="skill-pill-card" aria-label="View MySQL experience" data-tech-name="MySQL" data-tech-desc="Wrote relational queries, schema models, joints, indexing routines, and transactional integrity checks." data-tech-level="82%" data-tech-level-text="Intermediate" data-tech-icon="devicon-mysql-plain colored">
+                <i class="devicon-mysql-plain colored" aria-hidden="true"></i>
+                <span>MySQL</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View PostgreSQL experience" data-tech-name="PostgreSQL" data-tech-desc="Implemented relational schema designs, tables indexing, triggers, and stored procedures for data integrity." data-tech-level="80%" data-tech-level-text="Intermediate" data-tech-icon="devicon-postgresql-plain colored">
+                <i class="devicon-postgresql-plain colored" aria-hidden="true"></i>
+                <span>PostgreSQL</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View MongoDB experience" data-tech-name="MongoDB" data-tech-desc="Managed non-relational document databases, aggregation pipelines, JSON structures, and Atlas deployments." data-tech-level="85%" data-tech-level-text="Intermediate" data-tech-icon="devicon-mongodb-plain colored">
+                <i class="devicon-mongodb-plain colored" aria-hidden="true"></i>
+                <span>MongoDB</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Category 4: Tools & DevOps Basics -->
+          <div class="skills-category-group">
+            <div class="category-title-wrapper">
+              <svg class="category-title-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+              <h3>Tools & DevOps Basics</h3>
+            </div>
+
+            <div class="skills-pills-wrap">
+              <button type="button" class="skill-pill-card" aria-label="View Linux experience" data-tech-name="Linux" data-tech-desc="Familiar with terminal execution, bash scripting, packages configuration, and simple environment setups." data-tech-level="80%" data-tech-level-text="Intermediate" data-tech-icon="devicon-linux-plain colored">
+                <i class="devicon-linux-plain colored" aria-hidden="true"></i>
+                <span>Linux</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View Docker experience" data-tech-name="Docker" data-tech-desc="Familiar with containerization concepts, writing Dockerfiles, building images, and launching container systems." data-tech-level="75%" data-tech-level-text="Intermediate" data-tech-icon="devicon-docker-plain colored">
+                <i class="devicon-docker-plain colored" aria-hidden="true"></i>
+                <span>Docker</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View VS Code experience" data-tech-name="VS Code" data-tech-desc="My daily driver code editor, customized with workspace extensions, build tools, and custom shortcuts." data-tech-level="95%" data-tech-level-text="Advanced" data-tech-icon="devicon-vscode-plain colored">
+                <i class="devicon-vscode-plain colored" aria-hidden="true"></i>
+                <span>VS Code</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View GitHub experience" data-tech-name="GitHub" data-tech-desc="Host code repositories, collaborate on open source projects, run CI/CD actions, and complete code reviews." data-tech-level="90%" data-tech-level-text="Advanced" data-tech-icon="devicon-github-original colored">
+                <i class="devicon-github-original colored" aria-hidden="true"></i>
+                <span>GitHub</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View Postman experience" data-tech-name="Postman" data-tech-desc="Test and document REST API endpoints, validate status codes, and aggregate automated request collections." data-tech-level="85%" data-tech-level-text="Advanced" data-tech-icon="devicon-postman-plain colored">
+                <i class="devicon-postman-plain colored" aria-hidden="true"></i>
+                <span>Postman</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Category 5: Others -->
+          <div class="skills-category-group">
+            <div class="category-title-wrapper">
+              <svg class="category-title-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+              </svg>
+              <h3>Others</h3>
+            </div>
+
+            <div class="skills-pills-wrap">
+              <button type="button" class="skill-pill-card" aria-label="View Figma experience" data-tech-name="Figma" data-tech-desc="Create layout frames, wireframes, interactive UI component systems, and vector assets." data-tech-level="80%" data-tech-level-text="Intermediate" data-tech-icon="devicon-figma-plain colored">
+                <i class="devicon-figma-plain colored" aria-hidden="true"></i>
+                <span>Figma</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View Canva experience" data-tech-name="Canva" data-tech-desc="Design graphic vectors, layout presentations, posters, custom brand illustrations, and visual designs." data-tech-level="88%" data-tech-level-text="Advanced" data-tech-icon="devicon-canva-plain colored">
+                <i class="devicon-canva-plain colored" aria-hidden="true"></i>
+                <span>Canva</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View Unity Engine experience" data-tech-name="Unity Engine" data-tech-desc="Familiar with basic 3D environments layout, C# script controllers, physics loops, and interface assets." data-tech-level="70%" data-tech-level-text="Intermediate" data-tech-icon="devicon-unity-original colored">
+                <i class="devicon-unity-original colored" aria-hidden="true"></i>
+                <span>Unity Engine</span>
+              </button>
+              <button type="button" class="skill-pill-card" aria-label="View Google Earth Engine experience" data-tech-name="Google Earth Engine" data-tech-desc="Process remote sensing data models, satellite raster arrays, raster statistics, and environmental mapping." data-tech-level="75%" data-tech-level-text="Intermediate" data-tech-icon="custom-svg-globe">
+                <!-- Earth Engine SVG Globe -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:1.25rem; height:1.25rem; color:#4285f4;" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+                <span>Google Earth Engine</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        <h2 class="section-title text-center" data-reveal>Featured Projects</h2>
+        <p class="section-subtitle text-center" data-reveal>Learning by building.</p>
+
+        <!-- Project Cards Grid -->
+        <div class="projects-grid">
+          
+          <!-- Project Card 1: GreenSetu -->
+          <article class="project-card" data-reveal="left">
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-type">GIS & Environmental Platform</span>
+                <h3 class="project-title">GreenSetu</h3>
+              </div>
+              <p class="project-desc">
+                A web-based environmental monitoring system that analyzes mangrove degradation in the Mumbai Metropolitan Region using GIS and satellite data, providing interactive visualizations and predictive insights for environmental analysis.
+              </p>
+              
+              <ul class="project-tags-list" role="list">
+                <li>
+                  <!-- Google Earth Engine SVG -->
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="color:#4285f4;" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                  </svg>
+                  <span>Google Earth Engine</span>
+                </li>
+                <li>
+                  <i class="devicon-streamlit-plain colored" aria-hidden="true"></i>
+                  <span>Streamlit</span>
+                </li>
+                <li>
+                  <i data-lucide="bar-chart-2" aria-hidden="true"></i>
+                  <span>Plotly</span>
+                </li>
+                <li>
+                  <i class="devicon-pandas-plain colored" aria-hidden="true"></i>
+                  <span>Pandas</span>
+                </li>
+                <li>
+                  <i class="devicon-leaflet-plain colored" aria-hidden="true"></i>
+                  <span>Leaflet</span>
+                </li>
+                <li>
+                  <i data-lucide="trending-up" aria-hidden="true"></i>
+                  <span>Linear Regression</span>
+                </li>
+              </ul>
+              
+              <div class="project-links">
+                <a href="https://github.com/vimla01/GreenSetu" target="_blank" rel="noopener noreferrer" class="btn-project" aria-label="GitHub Repository for GreenSetu">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="http://greensetu.streamlit.app" target="_blank" rel="noopener noreferrer" class="btn-project" aria-label="Live Demo for GreenSetu">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Live Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 2: MediPin -->
+          <article class="project-card" data-reveal="right">
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-type">Location-based Emergency Assistance</span>
+                <h3 class="project-title">MediPin</h3>
+              </div>
+              <p class="project-desc">
+                A location-based emergency assistance platform that helps users find nearby hospitals within a 5 km radius while providing real-time navigation and first-aid guidance.
+              </p>
+
+              <ul class="project-tags-list" role="list">
+                <li>
+                  <i class="devicon-html5-plain colored" aria-hidden="true"></i>
+                  <span>HTML</span>
+                </li>
+                <li>
+                  <i class="devicon-css3-plain colored" aria-hidden="true"></i>
+                  <span>CSS</span>
+                </li>
+                <li>
+                  <i class="devicon-javascript-plain colored" aria-hidden="true"></i>
+                  <span>JavaScript</span>
+                </li>
+                <li>
+                  <i class="devicon-leaflet-plain colored" aria-hidden="true"></i>
+                  <span>Leaflet.js</span>
+                </li>
+                <li>
+                  <i class="devicon-spring-plain colored" aria-hidden="true"></i>
+                  <span>Spring Boot</span>
+                </li>
+                <li>
+                  <i data-lucide="shield" aria-hidden="true"></i>
+                  <span>Spring Security</span>
+                </li>
+                <li>
+                  <i data-lucide="key" aria-hidden="true"></i>
+                  <span>OAuth2</span>
+                </li>
+                <li>
+                  <i data-lucide="database" aria-hidden="true"></i>
+                  <span>Hibernate</span>
+                </li>
+                <li>
+                  <i data-lucide="layers" aria-hidden="true"></i>
+                  <span>JPA</span>
+                </li>
+                <li>
+                  <i class="devicon-postgresql-plain colored" aria-hidden="true"></i>
+                  <span>PostgreSQL</span>
+                </li>
+                <li>
+                  <i data-lucide="map" aria-hidden="true"></i>
+                  <span>PostGIS</span>
+                </li>
+              </ul>
+
+              <div class="project-links">
+                <a href="https://github.com/asthabomble/MediPin.git" target="_blank" rel="noopener noreferrer" class="btn-project" aria-label="GitHub Repository for MediPin">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="https://drive.google.com/file/d/1T6J6tAvx-FAvbcOUlGgCd7W2YaCVKqgr/view" target="_blank" rel="noopener noreferrer" class="btn-project" aria-label="Demo Video for MediPin">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polygon points="23 7 16 12 23 17 23 7"></polygon>
+                    <rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect>
+                  </svg>
+                  <span>Demo Video</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 3: Save'Em All -->
+          <article class="project-card" data-reveal="left">
+            <div class="project-content">
+              <div class="project-meta">
+                <span class="project-type">Mobile Game</span>
+                <h3 class="project-title">Save'Em All</h3>
+              </div>
+              <p class="project-desc">
+                A rescue-based mobile game where players save hostages by dodging obstacles, avoiding guards, and overcoming various hazards. The game focuses on engaging gameplay mechanics, level design, and user experience.
+              </p>
+
+              <ul class="project-tags-list" role="list">
+                <li>
+                  <i class="devicon-unity-original colored" aria-hidden="true"></i>
+                  <span>Unity Engine</span>
+                </li>
+                <li>
+                  <i class="devicon-figma-plain colored" aria-hidden="true"></i>
+                  <span>Figma</span>
+                </li>
+              </ul>
+
+              <div class="project-links">
+                <a href="https://github.com/vimla01/Save-Em-All" target="_blank" rel="noopener noreferrer" class="btn-project" aria-label="GitHub Repository for Save'Em All">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.com.Teknack.SaveEmAll.SaveEmAll&pcampaignid=web_share" target="_blank" rel="noopener noreferrer" class="btn-project" aria-label="Play Store Link for Save'Em All">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                  <span>Play Store</span>
+                </a>
+              </div>
+            </div>
+          </article>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        <h2 class="section-title text-center" data-reveal>Let's Work Together</h2>
+        <p class="section-subtitle text-center" data-reveal>Have an opportunity or project in mind? Shoot me a message!</p>
+
+        <div class="contact-grid">
+          <!-- Quick Info Cards -->
+          <div class="contact-info" data-reveal="left">
+            <h3 class="contact-heading">Contact Information</h3>
+            <p class="contact-desc">
+              Feel free to reach out for collaborations, project inquiries, or just to chat about design and development.
+            </p>
+
+            <ul class="contact-details-list" role="list">
+              <li>
+                <div class="contact-icon-wrapper" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                </div>
+                <div>
+                  <span class="detail-label">Email Me</span>
+                  <a href="mailto:asthabomble@gmail.com?subject=Regarding%20Your%20Portfolio" class="detail-value">asthabomble@gmail.com</a>
+                </div>
+              </li>
+              <li>
+                <div class="contact-icon-wrapper" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                  </svg>
+                </div>
+                <div>
+                  <span class="detail-label">GitHub</span>
+                  <a href="https://github.com/asthabomble" target="_blank" rel="noopener noreferrer" class="detail-value">github.com/asthabomble</a>
+                </div>
+              </li>
+              <li>
+                <div class="contact-icon-wrapper" aria-hidden="true">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect width="4" height="12" x="2" y="9"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div>
+                  <span class="detail-label">LinkedIn</span>
+                  <a href="https://www.linkedin.com/in/astha-bombale" target="_blank" rel="noopener noreferrer" class="detail-value">linkedin.com/in/astha-bombale</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Interactive Form -->
+          <div class="contact-form-wrapper" data-reveal="right">
+            <form class="contact-form" id="portfolio-contact-form" action="#" method="POST">
+              <div class="form-group-row">
+                <div class="form-group">
+                  <label for="form-name" class="form-label">Name</label>
+                  <input type="text" id="form-name" name="name" class="form-input" placeholder="Your Name" required>
+                </div>
+                
+                <div class="form-group">
+                  <label for="form-email" class="form-label">Email</label>
+                  <input type="email" id="form-email" name="email" class="form-input" placeholder="you@example.com" required>
+                </div>
+              </div>
+
+
+
+              <div class="form-group">
+                <label for="form-message" class="form-label">Message</label>
+                <textarea id="form-message" name="message" rows="5" class="form-textarea" placeholder="Describe your project, timeline, or query..." required></textarea>
+              </div>
+
+              <!-- Success & Error Alert Messages -->
+              <div class="form-alert success-alert" id="form-success-alert" aria-live="polite" hidden>
+                Your message has been sent successfully! I'll get back to you shortly.
+              </div>
+              <div class="form-alert error-alert" id="form-error-alert" aria-live="polite" hidden>
+                Something went wrong. Please check your inputs and try again.
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-submit" id="form-submit-btn">
+                Send Message
+                <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#" class="logo footer-logo">
+          <span class="logo-dot"></span>astha<span class="logo-bold">bombale</span>
+        </a>
+        <p class="footer-tagline">Crafting modern, responsive web experiences with precision.</p>
+      </div>
+
+      <!-- Quick footer navigation links -->
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <ul class="footer-links-list" role="list">
+          <li><a href="#about" class="footer-link">About</a></li>
+          <li><a href="#skills" class="footer-link">Skills</a></li>
+          <li><a href="#projects" class="footer-link">Projects</a></li>
+          <li><a href="#contact" class="footer-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Footer Social Icons -->
+      <div class="footer-socials">
+        <a href="https://github.com/asthabomble" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+            <path d="M9 18c-4.51 2-5-2-7-2"></path>
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/astha-bombale" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect width="4" height="12" x="2" y="9"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+      </div>
+    </div>
+    
+    <div class="container copyright-container">
+      <p class="copyright-text">&copy; <span id="current-year">2026</span> Astha Bombale. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll back to top" title="Scroll back to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Interactive Skills Modal -->
+  <div id="skill-modal" class="skill-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-tech-name">
+    <div class="skill-modal-overlay" tabindex="-1"></div>
+    <div class="skill-modal-container">
+      <div class="skill-modal-content">
+        <button class="skill-modal-close" id="modal-close-btn" aria-label="Close modal" type="button">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <div class="skill-modal-body">
+          <div class="modal-tech-header">
+            <div id="modal-tech-icon-container" class="modal-tech-icon-container"></div>
+            <h3 id="modal-tech-name" class="modal-tech-name"></h3>
+          </div>
+          <p id="modal-tech-desc" class="modal-tech-desc"></p>
+          <div class="modal-level-wrapper">
+            <div class="level-header">
+              <span class="level-label">Proficiency Level</span>
+              <strong id="modal-tech-level-text" class="level-value"></strong>
+            </div>
+            <div class="modal-level-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" id="modal-level-bar-container">
+              <div id="modal-tech-fill" class="modal-level-fill"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lucide Icons Library -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- JavaScript File -->
+  <script src="js/main.js"></script>
+</body>
+</html>
